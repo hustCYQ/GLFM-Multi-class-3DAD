@@ -3,7 +3,9 @@
 > [**IEEE TASE**] [**Boosting Global-Local Feature Matching via Anomaly Synthesis for Multi-Class Point Cloud Anomaly Detection**](https://export.arxiv.org/abs/2409.13162).
 >
 > by [Yuqi Cheng](https://hustcyq.github.io/), [Yunkang Cao](https://caoyunkang.github.io/), Dongfang Wang, [Weiming Shen](https://scholar.google.com/citations?user=FuSHsx4AAAAJ&hl=en), Wenlong Li
+
 :hammer: Thank you for your attention! Our code is expected to be released in May.
+
 ## Introduction 
 Point cloud anomaly detection is essential for various industrial applications. The huge computation and storage costs caused by the increasing product classes limit the application of single-class unsupervised methods, necessitating the development of multi-class unsupervised methods. However, the feature similarity between normal and anomalous points from different class data leads to the feature confusion problem, which greatly hinders the performance of multi-class methods. Therefore, we introduce a multi-class point cloud anomaly detection method, named GLFM, leveraging global-local feature matching to progressively separate data that are prone to confusion across multiple classes. Specifically, GLFM is structured into three stages: Stage-I proposes an anomaly synthesis pipeline that stretches point clouds to create abundant anomaly data that are utilized to adapt the point cloud feature extractor for better feature representation. Stage-II establishes the global and local memory banks according to the global and local feature distributions of all the training data, weakening the impact of feature confusion on the establishment of the memory bank. Stage-III implements anomaly detection of test data leveraging its feature distance from global and local memory banks. Extensive experiments on the MVTec 3D-AD, Real3D-AD and actual industry parts dataset showcase our proposed GLFM’s superior point cloud anomaly detection performance.
 
