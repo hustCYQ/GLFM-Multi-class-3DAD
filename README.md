@@ -20,7 +20,7 @@ To set up the GLFM environment, follow the methods below:
 
 - Clone this repo:
   ```shell
-  git clone https://github.com/hustCYQ/GLFM.git && cd GLFM
+  git clone https://github.com/hustCYQ/GLFM-Multi-class-3DAD.git && cd GLFM-Multi-class-3DAD
   ```
 - Construct the experimental environment, follow these steps:
     ```shell
