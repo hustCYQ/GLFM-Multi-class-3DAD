@@ -68,6 +68,8 @@ Welcome to directly download our **processed** datasets. All datasets need to be
   python main.py --dataset real --task Multi-Class --k_class 3
 ```
 
+### Checkpoints
+We offer [pointmae_adapted.pth](https://pan.baidu.com/s/1O25jxtqo1yfQXhv_yjHwPg?pwd=gamw) for evaluation and [pointmae_pretrain.pth](https://pan.baidu.com/s/1We1JvqCXjgR9Bsc7idzucQ?pwd=fda7) for Self-Supervised.
 
 
 ## Main Results
@@ -107,7 +109,6 @@ Welcome to directly download our **processed** datasets. All datasets need to be
 
 
 
-### Train & Test
 If you find this repository useful for your research, please use the following.
 
 ```
