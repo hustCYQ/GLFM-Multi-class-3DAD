@@ -21,26 +21,26 @@ Point cloud anomaly detection is essential for various industrial applications. 
 To set up the GLFM environment, follow the methods below:
 
 - Clone this repo:
-  ```shell
-  git clone https://github.com/hustCYQ/GLFM.git && cd GLFM
-  ```
+```shell
+git clone https://github.com/hustCYQ/GLFM.git && cd GLFM
+```
 - Construct the experimental environment, follow these steps:
-    ```shell
-  conda create --name GLFM python=3.8
-  conda activate GLFM
-  conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+```shell
+conda create --name GLFM python=3.8
+conda activate GLFM
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 
-  pip install tifffile open3d-cpu
-  pip install -r requirements.txt
-  
-  pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
+pip install tifffile open3d-cpu
+pip install -r requirements.txt
 
-  git clone https://github.com/erikwijmans/Pointnet2_PyTorch.git
-  cd Pointnet2_PyTorch
-  pip install -r requirements.txt
-  pip install -e .
-  cd ..
-  ```
+pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
+
+git clone https://github.com/erikwijmans/Pointnet2_PyTorch.git
+cd Pointnet2_PyTorch
+pip install -r requirements.txt
+pip install -e .
+cd ..
+```
 
 
 ### Dataset Preparation 
@@ -54,18 +54,18 @@ Welcome to directly download our **processed** datasets. All datasets need to be
 
 ### Self-Supervised
 ```shell
-  python train.py
-  ```
+python train.py
+```
 
 
 
 ### Train & Test
 
 ```
-  python main.py --dataset mvtec --task Single-Class --k_class 1
-  python main.py --dataset real --task Single-Class --k_class 1
-  python main.py --dataset mvtec --task Multi-Class --k_class 10
-  python main.py --dataset real --task Multi-Class --k_class 3
+python main.py --dataset mvtec --task Single-Class --k_class 1
+python main.py --dataset real --task Single-Class --k_class 1
+python main.py --dataset mvtec --task Multi-Class --k_class 10
+python main.py --dataset real --task Multi-Class --k_class 3
 ```
 
 ### Checkpoints
