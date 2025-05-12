@@ -73,6 +73,8 @@ We offer [pointmae_adapted.pth](https://pan.baidu.com/s/1O25jxtqo1yfQXhv_yjHwPg?
 
 
 ## Main Results
+
+Notes: We achieved good performance in Real3D when we converted Real3D to .tiff format. The performance below results from training on MVtec 3D and evaluating directly on raw points of Real3D, so it is lower than the report in the paper.
 ### Multi-Class Task
 
 #### MVTec 3D-AD
