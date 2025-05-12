@@ -48,8 +48,8 @@ Welcome to directly download our **processed** datasets. All datasets need to be
 
 | Dataset | Google Drive | Baidu Drive | Note
 |------------|------------------|------------------| ------------------|
-| MVTec 3D-AD    | [Google Drive]() | [Baidu Drive]() | Remove Background |
-| Real3D-AD    | [Google Drive]() | [Baidu Drive]() | Cut Training Data |
+| MVTec 3D-AD    | [Google Drive]() | [Baidu Drive](https://pan.baidu.com/s/11xfMoNmdnc0DSnECVf2pZw?pwd=6bjk) | Remove Background |
+| Real3D-AD    | [Google Drive]() | [Baidu Drive](https://pan.baidu.com/s/1FFLjiOoOaOrW4FyVr0s9Sw?pwd=7jid) | Cut Training Data |
 
 
 ### Self-Supervised
