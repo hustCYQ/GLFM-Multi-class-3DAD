@@ -7,7 +7,7 @@ from utils.mvtec3d_util import *
 from torch.utils.data import DataLoader
 import numpy as np
 
-DATASETS_PATH = '/data2/code/BTF/data/mvtec3ds'
+DATASETS_PATH = '/data/MVTec3d'
 
 
 def mvtec3d_classes():
