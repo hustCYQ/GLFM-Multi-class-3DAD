@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader
 import numpy as np
 import open3d as o3d
 
-DATASETS_PATH = '/data2/code/Semicore/data/real3d_train_cut'
+DATASETS_PATH = '/data/Real3d_cut'
 def real3d_classes():
     return [
         "airplane",    
