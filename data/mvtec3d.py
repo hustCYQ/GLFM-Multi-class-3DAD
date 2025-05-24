@@ -87,8 +87,8 @@ class MVTec3DTest(MVTec3D):
                 pcd_paths = glob.glob(os.path.join(self.data_path, defect_type, 'xyz') + "/*.tiff")
                 pcd_paths.sort()
                 pcd_tot_paths.extend(pcd_paths)
-                gt_tot_paths.extend([0] * len(pcd_tot_paths))
-                tot_labels.extend([0] * len(pcd_tot_paths))
+                gt_tot_paths.extend([0] * len(pcd_paths))
+                tot_labels.extend([0] * len(pcd_paths))
             else:
                 pcd_paths = glob.glob(os.path.join(self.data_path, defect_type, 'xyz') + "/*.tiff")
                 gt_paths = glob.glob(os.path.join(self.data_path, defect_type, 'gt') + "/*.png")
@@ -96,7 +96,7 @@ class MVTec3DTest(MVTec3D):
                 gt_paths.sort()
                 pcd_tot_paths.extend(pcd_paths)
                 gt_tot_paths.extend(gt_paths)
-                tot_labels.extend([1] * len(pcd_tot_paths))
+                tot_labels.extend([1] * len(pcd_paths))
 
         assert len(pcd_tot_paths) == len(gt_tot_paths), "Something wrong with test and ground truth pair!"
 
